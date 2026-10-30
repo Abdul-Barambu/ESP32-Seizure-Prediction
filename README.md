@@ -36,7 +36,6 @@ The accuracy drop after quantization is the main thing I'm working to fix.
 
 ## Limitations (honest ones)
 - This is a proof of concept, validated only on the public CHB-MIT dataset. No clinical trials.
-- It currently detects seizures; it does not yet predict them ahead of time.
 - The firmware reads one EEG channel.
 - Power consumption was not measured with instruments, only observed to be stable on a power bank.
 - The EEG signal is digitized without a dedicated amplifier stage.
