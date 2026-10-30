@@ -2,10 +2,8 @@
 
 Real-time EEG seizure detection running fully on-device on an ESP32. No cloud, no Wi-Fi, no phone.
 
-Built for my MSc thesis in Software Engineering at Nile University of Nigeria (January 2026): "Development of Real-Time Edge AI Model on Ultra-Low-Power Embedded Systems in Wearable Health Devices."
-
 ## Why this exists
-Most seizure-detection research needs a server or a GPU. I wanted to show it can run on a chip costing a few dollars, with no network, so it can work where connectivity and money are limited. Because nothing leaves the device, there is also no server to breach.
+Most seizure detection and prediction research needs a server or a GPU. I wanted to show it can run on a chip costing a few dollars, with no network, so it can work where connectivity and money are limited. Because nothing leaves the device, there is also no server to breach.
 
 ## How it works
 1. Sensing: dry EEG electrodes on a headband, with reference and ground on the earlobes.
